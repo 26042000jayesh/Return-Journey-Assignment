@@ -1,0 +1,27 @@
+const findCommonElements = (arr1, arr2) => {
+    const mp = {};
+    const result = [];
+
+    for (let i = 0; i < arr1.length; i++) {
+        if (mp.hasOwnProperty(arr1[i])) {
+            mp[arr1[i]] = mp[arr1[i]] + 1;
+        } else {
+            mp[arr1[i]] = 1;
+        }
+    }
+
+    for (let i = 0; i < arr2.length; i++) {
+        if (mp.hasOwnProperty(arr2[i]) && mp[arr2[i]] > 0) {
+            result.push(arr2[i]);
+            mp[arr2[i]] = mp[arr2[i]] - 1;
+        }
+    }
+
+    return result;
+}
+
+
+const array1 = [1, 2, 3, 4, 5, 2, 1];
+const array2 = [3, 4, 5, 6, 7, 1, 2, 2];
+const result = findCommonElements(array1, array2);
+console.log(result);
