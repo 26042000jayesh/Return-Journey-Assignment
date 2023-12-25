@@ -117,35 +117,24 @@ Example:
 **Installation**
 
    After cloning the repository, navigate to the project directory and run:
-
-   ```bash
    npm install
-   ```bash
-
-**Installation**
 
 ## Running the Application
 
 To run the application in production mode, execute:
 
-```bash
    npm run start:prod
-   ```bash
 
 
 To run the application in production mode, execute:
 
-```bash
    npm run start:dev
-   ```bash
 
 ## Testing
 
 To execute tests using jest, run:
 
-```bash
    npm run test
-   ```bash
 
 
 ## Environment Variables
