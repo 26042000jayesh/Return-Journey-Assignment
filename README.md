@@ -25,9 +25,6 @@ Implemented RESTful API's using Node.js and JavaScript (Had a discussion with Al
 - [Running the Application](#running-the-application)
 - [Testing](#testing)
 - [Environment Variables](#environment-variables)
-- [Development and Production Modes](#development-and-production-modes)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Overview
 
